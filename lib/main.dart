@@ -31,6 +31,16 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    double largura;
+    double altura;
+    if (MediaQuery.of(context).size.height >
+        MediaQuery.of(context).size.width) {
+      largura = MediaQuery.of(context).size.width * 0.20;
+      altura = MediaQuery.of(context).size.width * 0.20;
+    } else {
+      largura = MediaQuery.of(context).size.height * 0.15;
+      altura = MediaQuery.of(context).size.height * 0.15;
+    }
     return Scaffold(
       backgroundColor: Colors.grey,
       body: SafeArea(
@@ -74,8 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           key: ValueKey(1),
                           color: listaCores[0],
@@ -90,8 +100,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           key: ValueKey(2),
                           color: listaCores[1],
@@ -106,8 +116,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[2],
                           onPressed: () {
@@ -121,8 +131,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[3],
                           onPressed: () {
@@ -141,8 +151,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[4],
                           onPressed: () {
@@ -156,8 +166,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[5],
                           onPressed: () {
@@ -171,8 +181,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[6],
                           onPressed: () {
@@ -186,8 +196,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[7],
                           onPressed: () {
@@ -206,8 +216,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[8],
                           onPressed: () {
@@ -221,8 +231,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[9],
                           onPressed: () {
@@ -236,8 +246,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[10],
                           onPressed: () {
@@ -251,8 +261,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[11],
                           onPressed: () {
@@ -271,8 +281,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[12],
                           onPressed: () {
@@ -286,8 +296,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[13],
                           onPressed: () {
@@ -301,8 +311,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[14],
                           onPressed: () {
@@ -316,8 +326,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: const EdgeInsets.all(2.0),
                       child: ButtonTheme(
-                        minWidth: MediaQuery.of(context).size.height * 0.15,
-                        height: MediaQuery.of(context).size.height * 0.15,
+                        minWidth: largura,
+                        height: altura,
                         child: RaisedButton(
                           color: listaCores[15],
                           onPressed: () {
