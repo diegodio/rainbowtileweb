@@ -40596,7 +40596,7 @@ N.Rl.prototype={
 $1:function(a){return!0},
 $S:29}
 F.uB.prototype={
-M:function(a,b){return new S.nE(new F.nT(null),"Rainbow Tile Web v 0.0.05",X.X_(null,C.lD),null)}}
+M:function(a,b){return new S.nE(new F.nT(null),"Rainbow Tile Web v0.0.05",X.X_(null,C.lD),null)}}
 F.nT.prototype={
 aL:function(){return new F.zF(C.m)}}
 F.zF.prototype={
