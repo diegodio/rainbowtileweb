@@ -40588,7 +40588,7 @@ N.Rl.prototype={
 $1:function(a){return!0},
 $S:29}
 F.uz.prototype={
-M:function(a,b){return new S.nB(new F.nP(null),"Flutter Demo",X.WY(null,C.lA),null)}}
+M:function(a,b){return new S.nB(new F.nP(null),"Rainbow Tile Web",X.WY(null,C.lA),null)}}
 F.nP.prototype={
 aL:function(){return new F.zE(C.m)}}
 F.zE.prototype={
