@@ -40739,7 +40739,7 @@ N.RZ.prototype={
 $1:function(a){return!0},
 $S:35}
 F.uO.prototype={
-J:function(a,b){return new S.nR(new F.oi(null),"Rainbow Tile Web v0.1.05",X.XE(null,C.hn),null)}}
+J:function(a,b){return new S.nR(new F.oi(null),"Rainbow Tile Web v0.1.47",X.XE(null,C.hn),null)}}
 F.oi.prototype={
 aL:function(){return new F.A5(C.p)}}
 F.A5.prototype={
